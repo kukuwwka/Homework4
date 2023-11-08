@@ -1,12 +1,6 @@
 package Ternary;
 
 public class Ternary {
-    public static void main(String[] args) {
-        int number = 12;
-        String convertNumber = Ternary.convertNumber(number);
-        System.out.println(convertNumber);
-    }
-
     public static String convertNumber(int number) {
         String result;
         {
