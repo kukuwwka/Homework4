@@ -6,8 +6,10 @@ public class Apples {
     public static void main(String[] args) {
         Scanner namesc = new Scanner(System.in);
         System.out.println("Введите имя");
+
         Scanner valuesc = new Scanner(System.in);
         System.out.println("Введите количество яблок");
+
         String getName = namesc.nextLine();
         int getValue = valuesc.nextInt();
 
@@ -22,3 +24,7 @@ public class Apples {
         }
     }
 }
+
+/* Пытался импортировать данные из класса App, но ругается на синтаксис или просто не видит название сканера
+   Я ещё покумекаю, на данном этапе пока только там
+ */
